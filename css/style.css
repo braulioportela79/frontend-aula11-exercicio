@@ -20,24 +20,151 @@ header {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
 
 header img {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
 }
 
 header ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    margin-right: 30px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 header li {
-    margin-right: 15px;
-    cursor: pointer;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+section {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sectionContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.delivery {
+  width: 50%;
+  height: 640px;
+  background-image: url('../img/delivery.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  border-radius: 5px;
+}
+
+.delivery h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: #fc200c;
+  margin-top: 20px;
+}
+
+.delivery span {
+  color: white;
+}
+
+.menu {
+  width: 50%;
+  align-self: stretch;
+}
+.menu h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 28px;
+  text-align: center;
+  color: #fc200c;
+  margin-top: 80px;
+}
+
+.menuContainer {
+  display: flex;
+  margin-top: 50px;
+}
+
+.topFive {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.topFive h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 23px;
+  color: #222222;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.topFive li {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #222222;
+  list-style-position: inside;
+}
+
+.menuImg {
+  display: flex;
+  align-self: stretch;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuImg img {
+  height: 65%;
+}
+
+footer {
+  margin-top: 30px;
+  height: 180px;
+  background: #222222;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer nav {
+  margin-left: 30px;
+}
+
+footer ul {
+  flex-direction: column;
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  color: #f3f3f3;
+}
+
+footer li {
+  cursor: pointer;
+}
+
+footer .logo {
+  margin-right: 45px;
+  cursor: pointer;
 }
